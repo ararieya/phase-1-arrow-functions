@@ -2,12 +2,12 @@ function divide(num1, num2) {
     return num1 / num2;
   }
 
-console.log(divide(2000,100))
+divide(2000,100)
 
 const nums=[2]
-const squares = nums.map(x => x * x);
+const square = nums.map(x => x * x);
 
-console.log(squares);
+square;
  
 const add=(parameter1,parameter2) => {
     console.log(`Adding ${parameter1}`);
